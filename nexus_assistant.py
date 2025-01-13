@@ -85,7 +85,7 @@ def synthesize_speech(text, tts_pipeline, audio_queue: queue.Queue):
     inputs = {
         "text": text,
         "text_lang": "en",
-        "ref_audio_path": "./audio/ref_joi_dna.wav",
+        "ref_audio_path": "./assets/audio/ref_joi_dna.wav",
         "top_k": 10,
         "top_p": 0.9,
         "temperature": 0.9,
