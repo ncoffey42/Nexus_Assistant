@@ -1,3 +1,3 @@
 # Nexus Assistant
 
-![Nexus Assistant Design](./assets/images/nexus_system_design.png)
+![Nexus Assistant Design](./assets/images/nexus_system_design.PNG)
