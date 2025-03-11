@@ -3,7 +3,7 @@ Nexus Assistant is an advanced AI-powered voice assistant that dynamically adjus
   
 Using OpenAI’s Whisper for speech recognition, GPT-SoVITS for voice synthesis, and FAISS-based RAG for memory recall, Nexus Assistant enables fluid, contextually relevant, and emotionally engaging conversations in real-time.
 
-![Nexus Assistant Design](./assets/images/nexus_system_design.PNG)
+![Nexus Assistant Design](./assets/images/nexus_assistant_arch.PNG)
 
 
 ---
