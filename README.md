@@ -14,7 +14,8 @@ Using OpenAI’s Whisper for speech recognition, GPT-SoVITS for voice synthesis,
 ✔ **Emotion-Adaptive Responses** – Determines the emotional context of conversation topic utilizing a secondary LLM (GPT-4o-mini) and adjusts its responses accordingly using preset mood system prompt profiles. 
   
 ✔ **Temporal-Aware Retrieval-Augmented Generation (RAG)** – The conversation is summarized and timestamped every six messages or upon close. This summary is saved in a FAISS Index and then retrieved as context when relevant. The Dateparser library is utilized to resolve natural language dates to absolute dates to aid in retrieval accuracy.  
-- Ex. "What did I have for dinner yesterday?" --> "What did I have for dinner yesterday? [Time: 2025-03-02 19:16:24]"
+- Ex. "What did I have for dinner yesterday?"  
+       => "What did I have for dinner yesterday? [Time: 2025-03-02 19:16:24]"
   
 ✔ **Voice Synthesis (TTS)** – Utilizing GPT-SoVITS Assistant responses are converted to speech, audio fragments are streamed to the user for faster-response time.  
 
